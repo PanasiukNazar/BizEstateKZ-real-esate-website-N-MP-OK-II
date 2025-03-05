@@ -1,11 +1,11 @@
 /* Fonts */
 :root {
-    --default-font: 'Open Sans', system-ui, -apple-system, 'Segoe UI', Roboto,
-        'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
-        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-        'Noto Color Emoji';
-    --heading-font: 'Raleway', sans-serif;
-    --nav-font: 'Poppins', sans-serif;
+    --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --heading-font: "Raleway", sans-serif;
+    --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -13,17 +13,17 @@
     --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
     --heading-color: #37423b; /* Color for headings, subheadings and title throughout the website */
-    --accent-color: #5fcf80; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --accent-color: #5b84b1ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
     --contrast-color: #ffffff; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
     --nav-color: #272828; /* The default color of the main navmenu links */
-    --nav-hover-color: #5fcf80; /* Applied to main navmenu links when they are hovered over or active */
+    --nav-hover-color: #5b84b1ff; /* Applied to main navmenu links when they are hovered over or active */
     --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
     --nav-dropdown-color: #272828; /* Used for navigation links of the dropdown items in the navigation menu. */
-    --nav-dropdown-hover-color: #5fcf80; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+    --nav-dropdown-hover-color: #5b84b1ff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Smooth scroll */
@@ -495,7 +495,7 @@ h6 {
     border-color: var(--accent-color);
 }
 
-.footer .footer-newsletter .newsletter-form input[type='email'] {
+.footer .footer-newsletter .newsletter-form input[type="email"] {
     border: 0;
     padding: 4px 8px;
     width: 100%;
@@ -503,11 +503,11 @@ h6 {
     color: var(--default-color);
 }
 
-.footer .footer-newsletter .newsletter-form input[type='email']:focus-visible {
+.footer .footer-newsletter .newsletter-form input[type="email"]:focus-visible {
     outline: none;
 }
 
-.footer .footer-newsletter .newsletter-form input[type='submit'] {
+.footer .footer-newsletter .newsletter-form input[type="submit"] {
     border: 0;
     font-size: 16px;
     padding: 0 20px 2px 20px;
@@ -518,7 +518,7 @@ h6 {
     border-radius: 50px;
 }
 
-.footer .footer-newsletter .newsletter-form input[type='submit']:hover {
+.footer .footer-newsletter .newsletter-form input[type="submit"]:hover {
     background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
@@ -553,7 +553,7 @@ h6 {
 }
 
 .footer .footer-newsletter .loading:before {
-    content: '';
+    content: "";
     display: inline-block;
     border-radius: 50%;
     width: 24px;
@@ -602,7 +602,7 @@ h6 {
 }
 
 #preloader:before {
-    content: '';
+    content: "";
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
@@ -714,7 +714,7 @@ h6 {
 }
 
 .page-title nav ol li + li::before {
-    content: '/';
+    content: "/";
     display: inline-block;
     padding-right: 10px;
     color: color-mix(in srgb, var(--default-color), transparent 70%);
@@ -760,7 +760,7 @@ section,
 }
 
 .section-title h2::after {
-    content: '';
+    content: "";
     width: 120px;
     height: 1px;
     display: inline-block;
@@ -805,7 +805,7 @@ section,
 }
 
 .hero:before {
-    content: '';
+    content: "";
     background: color-mix(in srgb, var(--background-color), transparent 60%);
     position: absolute;
     inset: 0;
@@ -1364,7 +1364,7 @@ section,
 }
 
 .courses-course-details h3:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     width: 100%;
@@ -1375,7 +1375,7 @@ section,
 }
 
 .courses-course-details h3:after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     width: 60px;
@@ -1787,7 +1787,7 @@ section,
 }
 
 .contact .php-email-form .loading:before {
-    content: '';
+    content: "";
     display: inline-block;
     border-radius: 50%;
     width: 24px;
@@ -1798,8 +1798,8 @@ section,
     animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input[type='text'],
-.contact .php-email-form input[type='email'],
+.contact .php-email-form input[type="text"],
+.contact .php-email-form input[type="email"],
 .contact .php-email-form textarea {
     font-size: 14px;
     padding: 10px 15px;
@@ -1814,19 +1814,19 @@ section,
     border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
-.contact .php-email-form input[type='text']:focus,
-.contact .php-email-form input[type='email']:focus,
+.contact .php-email-form input[type="text"]:focus,
+.contact .php-email-form input[type="email"]:focus,
 .contact .php-email-form textarea:focus {
     border-color: var(--accent-color);
 }
 
-.contact .php-email-form input[type='text']::placeholder,
-.contact .php-email-form input[type='email']::placeholder,
+.contact .php-email-form input[type="text"]::placeholder,
+.contact .php-email-form input[type="email"]::placeholder,
 .contact .php-email-form textarea::placeholder {
     color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.contact .php-email-form button[type='submit'] {
+.contact .php-email-form button[type="submit"] {
     color: var(--contrast-color);
     background: var(--accent-color);
     border: 0;
@@ -1835,7 +1835,7 @@ section,
     border-radius: 50px;
 }
 
-.contact .php-email-form button[type='submit']:hover {
+.contact .php-email-form button[type="submit"]:hover {
     background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
@@ -1875,7 +1875,7 @@ section,
 }
 
 .cookie-wrapper * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 .cookie-wrapper .show {
@@ -1886,12 +1886,12 @@ section,
     display: none;
 }
 header i {
-    color: #5fcf80;
+    color: #5b84b1ff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #5fcf80;
+    color: #5b84b1ff;
     font-weight: 500;
     text-align: center;
 }
@@ -1899,7 +1899,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #5fcf80;
+    color: #5b84b1ff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -1911,10 +1911,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #5fcf80;
+    border: 2px solid #5b84b1ff;
     color: #fff;
     padding: 8px 0;
-    background: #5fcf80;
+    background: #5b84b1ff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -1923,14 +1923,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #5fcf80;
+    color: #5b84b1ff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #5fcf80;
+    color: #5b84b1ff;
 }
 #declineBtn:hover {
-    background-color: #5fcf80;
+    background-color: #5b84b1ff;
     color: #fff;
 }
 /* Footer Style */
